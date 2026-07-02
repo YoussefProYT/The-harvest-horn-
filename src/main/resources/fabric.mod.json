@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "harvesthorn",
+  "version": "${version}",
+  "name": "The Harvest Horn",
+  "description": "A Fabric mod that harvests and replants crops in a large area.",
+  "authors": [
+    "Youssef"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yousef.harvesthorn.HarvestHorn"
+    ],
+    "fabric-datagen": [
+      "com.yousef.harvesthorn.datagen.HarvestHornDataGenerator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "fabric-api": ">=0.141.4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GGG",
+    "GHG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "H": { "item": "minecraft:goat_horn" }
+  },
+  "result": {
+    "id": "harvesthorn:gold_harvest_horn",
+    "count": 1
+  }
+}

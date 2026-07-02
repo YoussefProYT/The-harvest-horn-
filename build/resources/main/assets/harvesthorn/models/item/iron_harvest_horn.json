@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "IHI",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "H": { "item": "minecraft:goat_horn" }
+  },
+  "result": {
+    "id": "harvesthorn:iron_harvest_horn",
+    "count": 1
+  }
+}
